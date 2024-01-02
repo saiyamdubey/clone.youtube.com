@@ -1,0 +1,108 @@
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    min-width: 100%;
+    height: 4rem;
+    background-color: #0f0f0f;
+    
+    > .left,.middle,.right{
+        margin-top: 10px;
+        display: flex;
+        justify-content:start;
+        align-items:center;
+        
+        >img{
+            margin-left: 1.2rem;    
+        }
+        >h2{
+            color: white;
+            font-weight:bold;
+            font-family: sans-serif;
+            font-size: large;
+            margin-top: 5px;
+            font-stretch:narrower;
+
+            >sup{
+                color: rgb(200, 199, 199);
+                font-weight:100;
+                font-size:10px;
+                margin-left: 8px;
+                letter-spacing: 2px;
+            }
+        }
+    }
+    >.left .logo{
+        filter:invert(0%);
+        width: 38px;
+        height: 34px;
+    }
+    
+    .middle{
+        > img{
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+        > input{
+            color: #ffffff;
+            width: 30rem;
+            font-size: large;
+            height: 2.6rem;
+            border-top-left-radius: 2rem ;
+            border-bottom-left-radius: 2rem ;
+            padding-left: 1.5rem;
+            margin-right: 1px;
+            border: 1px solid rgb(65, 65, 65);
+            background-color: #0f0f0f;
+
+            &::placeholder{
+                color: #ffffff;
+                padding-left: 10px;
+                text-align: left;
+                font-size: medium;
+                margin-left: 1rem;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        .search{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 4rem;
+            height: 42px;
+            border-top-right-radius: 2rem ;
+            border-bottom-right-radius: 2rem ;
+            border: 2px solid rgb(65, 65, 65);
+            background-color: #2a2a2a;
+            margin-right: 2px;
+
+            > img{
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+        > .mic{
+            width: 2.5rem;
+            height: 2.5rem;
+            padding: 10px;
+            border-radius: 50%;
+            background: #bebebe;
+        }
+    }
+    >.right .profile{
+        filter:invert(0%);
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+    }
+    .right{
+        margin-right: 3rem;
+        > img{
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-left: 2rem;
+        }
+    }
+}
