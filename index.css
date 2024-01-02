@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+h1{
+color : Orange;
+backgroundcolor : green;
+}
+p
+{
+color :blue;
+}
+</style>
+<Center><h1>Registeration Form</h1></Center><br><br>
+<Center><img src = "C:\Users\DELL\Downloads\psit.jpeg" Style = "width: 50% ; length:50%><br><br>
+Name: <input type ="text"><br><br>
+Date of Birth: <input type ="text"><br><br>
+Password: <input type = " password"><br><br>
+Father Name: <input type ="text"><br><br>
+Mother Name: <input type ="text"><br><br>
+Gender : Male:<input type ="Radio" , Name ='Male'><v>
+Female:<input type ="Radio" , Name = 'Male'><br><br>
+Contact Number: <input type ="text"><br><br>
+Mail Id: <input type ="text"><br><br>
+Course choosen: <input type ="text"><br><br>
+School Name: <input type ="text"><br><br>
+Year of passing class 10: <input type ="text"><br><br>
+Year of passing class 12: <input type ="text"><br><br>
+Percentage of class 10: <input type ="text"><br><br>
+Percentage of class 12: <input type ="text"><br><br>
+Hobbies: <input type = "check box"><br><br>
+Achivements: <input type = "check box"><br><br>
+<a href ="file:///C:/Users/DELL/OneDrive/Documents/submitted.html">Submit:<input type ="Button" Value = "Submit"></a>
